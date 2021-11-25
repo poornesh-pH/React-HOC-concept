@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import ClickCounter from './ClickCounter';
 import HoverCounter from './HoverCounter';
+import TextCounter from './TextCounter';
 export default function App() {
   return (
     <div>
@@ -12,7 +13,7 @@ export default function App() {
           New/Updated Component.
         </li>
         <li>
-          This can be user as reuseable components which has similar
+          This can be used as reuseable components which has similar
           functionality
         </li>
         <li>const IronMan = withSuit(TonyStark)</li>
@@ -29,8 +30,9 @@ export default function App() {
         </li>
       </ul>
       <hr />
-      <ClickCounter something="Poornesh" />
+      {/* <ClickCounter author="Poornesh" /> */}
       <HoverCounter />
+      {/* <TextCounter /> */}
     </div>
   );
 }
