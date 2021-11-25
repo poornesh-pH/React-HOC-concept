@@ -24,7 +24,7 @@ export default function App() {
         </li>
       </ul>
       <hr />
-      <ClickCounter name={'Poornesh'} />
+      <ClickCounter something="Poornesh" />
       <HoverCounter />
     </div>
   );
