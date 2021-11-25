@@ -10,4 +10,4 @@ const ClickCounter = ({ count, incrementCounter, something }) => {
     </>
   );
 };
-export default withCounter(ClickCounter);
+export default withCounter(ClickCounter,2);

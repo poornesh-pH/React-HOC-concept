@@ -22,6 +22,11 @@ export default function App() {
           exact Component. To achieve this you need to manually send the props
           from the HOC component.{' '}
         </li>
+        <li>
+          Condition 2: You can pass an extra argument wile wrapping the
+          Component with the HOC, you can use the value to modify as per the
+          needs
+        </li>
       </ul>
       <hr />
       <ClickCounter something="Poornesh" />

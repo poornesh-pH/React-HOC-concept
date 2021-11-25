@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-const withCounter = (WrappedComponent) => {
+const withCounter = (WrappedComponent, incrementNumber) => {
   const NewComponent = (props) => {
     const [count, SetCount] = useState(0);
     const incrementCounter = () => {
-      SetCount((count) => (count = count + 1));
+      SetCount((count) => (count = count + (incrementNumber || 1)));
     };
     return (
       <WrappedComponent
